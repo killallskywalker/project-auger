@@ -1,0 +1,41 @@
+{
+  "name": "project-auger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.721.0",
+    "express": "^4.17.1",
+    "express-validation": "^3.0.5",
+    "handlebars": "^4.7.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.26",
+    "nodemailer": "^6.4.10",
+    "serverless-http": "^2.5.0"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^1.2.1",
+    "jest": "^26.1.0",
+    "mongodb-memory-server": "^6.6.3",
+    "mongoose-seed": "^0.6.0",
+    "serverless-offline": "^6.5.0",
+    "serverless-offline-sns": "^0.68.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "test": "jest -runInBand --detectOpenHandles",
+    "test:watch": "jest --watch",
+    "start": "nodemon --exec \"sls offline start --skipCacheInvalidation\""
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "author": "killallskywalker",
+  "license": "ISC"
+}
