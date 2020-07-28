@@ -4,4 +4,4 @@ jspm_packages
 
 # Serverless directories
 .serverless
-config/example.env.json
+config/dev.env.json
