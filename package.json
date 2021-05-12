@@ -12,7 +12,7 @@
     "express-validation": "^3.0.5",
     "handlebars": "^4.7.6",
     "mongoose": "^5.9.26",
-    "nodemailer": "^6.4.10",
+    "nodemailer": "^6.4.16",
     "serverless-http": "^2.5.0"
   },
   "devDependencies": {
