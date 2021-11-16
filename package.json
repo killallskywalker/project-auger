@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "dependencies": {
-    "aws-sdk": "^2.721.0",
+    "aws-sdk": "^2.814.0",
     "express": "^4.17.1",
     "express-validation": "^3.0.5",
     "handlebars": "^4.7.6",
